@@ -1,0 +1,25 @@
+input {
+  width: 300px;
+  padding: 5px 0px;
+}
+
+.suggestion-container {
+  width: 300px;
+  border: 1px solid black;
+  text-align: left;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.suggestion-item {
+  padding: 3px 3px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #ccc;
+}
+
+.active-suggestion {
+  background-color: #ccc;
+}
